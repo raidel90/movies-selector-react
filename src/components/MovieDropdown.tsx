@@ -4,8 +4,9 @@ import {
   InputLabel,
   Select,
   MenuItem,
-  SelectChangeEvent,
 } from '@mui/material';
+
+import type { SelectChangeEvent } from '@mui/material/Select';
 
 type Movie = {
   id: string;
